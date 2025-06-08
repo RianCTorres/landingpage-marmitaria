@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ale Marmitaria</title>
+</head>
+<body>
+    <!-- cabeçalho/marmitas -->
+    <header id="home">
+        <div class="overlay"></div>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>Ale Marmitaria</h1>
+                    <p>Marmitas com Amor</p>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="menu">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#marmitas">Marmitas</a></li>
+                    <li><a href="#cardapio">Cardápio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#faq">Perguntas</a></li>
+                    <li><a href="#regioes">Entregas</a></li>
+                </ul>
+            </nav>
+            <div class="header-content">
+                <h2>Comida caseira feita com carinho</h2>
+                <p>Sabor, qualidade e praticidade para o seu dia a dia</p>
+                <a href="#marmitas" class="btn">Ver Marmitas</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção de Marmitas -->
+    <section id="marmitas" class="section-bg">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossas Marmitas</h2>
+                <p>Escolha o tamanho ideal para você</p>
+            </div>
+            
+            <div class="marmita-selector">
+                <div class="selector-tabs">
+                    <button class="selector-tab active" data-size="p">Pequena</button>
+                    <button class="selector-tab" data-size="m">Média</button>
+                    <button class="selector-tab" data-size="g">Grande</button>
+                </div>
+                
+                <div class="marmita-display">
+                    <div class="marmita-info active" id="marmita-p">
+                        <div class="marmita-details">
+                            <h3>Marmita Pequena</h3>
+                            <p class="price">R$ 15,00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="marmita-info" id="marmita-m">
+                        <div class="marmita-details">
+                            <h3>Marmita Média</h3>
+                            <p class="price">R$ 19,00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="marmita-info" id="marmita-g">
+                        <div class="marmita-details">
+                            <h3>Marmita Grande</h3>
+                            <p class="price">R$ 22,00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Cardápio da Semana -->
+    <section id="cardapio">
+        <div class="container">
+            <div class="section-title">
+                <h2>Cardápio da Semana</h2>
+                <p>Confira nossas opções para cada dia</p>
+            </div>
+            
+            <div class="cardapio-tabs">
+                <div class="cardapio-nav">
+                    <button class="cardapio-tab active" data-day="segunda">Segunda</button>
+                    <button class="cardapio-tab" data-day="terca">Terça</button>
+                    <button class="cardapio-tab" data-day="quarta">Quarta</button>
+                    <button class="cardapio-tab" data-day="quinta">Quinta</button>
+                    <button class="cardapio-tab" data-day="sexta">Sexta</button>
+                    <button class="cardapio-tab" data-day="sabado">Sábado</button>
+                </div>
+                
+                <div class="cardapio-content">
+                    <div class="cardapio-day active" id="segunda">
+                        <div class="cardapio-details">
+                            <h3>Segunda-feira</h3>
+                            <div class="cardapio-item">
+                                <ul>
+                                    <li>Bife acebolado</li>
+                                    <li>Frango grelhado</li>
+                                    <li>Omelete </li>
+                                </ul>
+                            </div>
+                            <div class="cardapio-item">
+                                <h4>Acompanhamentos:</h4>
+                                <ul>
+                                    <li>Arroz branco</li>
+                                    <li>Feijão </li>
+                                    <li>Purê de batatas</li>
+                                    <li>Salada de alface e tomate</li>
+                                    <li>Farofa temperada</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cardapio-day" id="terca">
+                        <div class="cardapio-details">
+                            <h3>Terça-feira</h3>
+                            <div class="cardapio-item">
+                                <ul>
+                                    <li>Bife acebolado</li>
+                                    <li>Frango grelhado</li>
+                                    <li>Omelete </li>
+                                </ul>
+                            </div>
+                            <div class="cardapio-item">
+                                <h4>Acompanhamentos:</h4>
+                                <ul>
+                                    <li>Arroz branco</li>
+                                    <li>Feijão </li>
+                                    <li>Purê de batatas</li>
+                                    <li>Salada de alface e tomate</li>
+                                    <li>Farofa temperada</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cardapio-day" id="quarta">
+                        <div class="cardapio-details">
+                            <h3>Quarta-feira</h3>
+                            <div class="cardapio-item">
+                                <ul>
+                                    <li>Bife acebolado</li>
+                                    <li>Frango grelhado</li>
+                                    <li>Omelete </li>
+                                </ul>
+                            </div>
+                            <div class="cardapio-item">
+                                <h4>Acompanhamentos:</h4>
+                                <ul>
+                                    <li>Arroz branco</li>
+                                    <li>Feijão </li>
+                                    <li>Purê de batatas</li>
+                                    <li>Salada de alface e tomate</li>
+                                    <li>Farofa temperada</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cardapio-day" id="quinta">
+                        <div class="cardapio-details">
+                            <h3>Quinta-feira</h3>
+                            <div class="cardapio-item">
+                                <ul>
+                                    <li>Bife acebolado</li>
+                                    <li>Frango grelhado</li>
+                                    <li>Omelete </li>
+                                </ul>
+                            </div>
+                            <div class="cardapio-item">
+                                <h4>Acompanhamentos:</h4>
+                                <ul>
+                                    <li>Arroz branco</li>
+                                    <li>Feijão </li>
+                                    <li>Purê de batatas</li>
+                                    <li>Salada de alface e tomate</li>
+                                    <li>Farofa temperada</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cardapio-day" id="sexta">
+                        <div class="cardapio-details">
+                            <h3>Sexta-feira</h3>
+                            <div class="cardapio-item">
+                                <ul>
+                                    <li>Bife acebolado</li>
+                                    <li>Frango grelhado</li>
+                                    <li>Omelete </li>
+                                </ul>
+                            </div>
+                            <div class="cardapio-item">
+                                <h4>Acompanhamentos:</h4>
+                                <ul>
+                                    <li>Arroz branco</li>
+                                    <li>Feijão </li>
+                                    <li>Purê de batatas</li>
+                                    <li>Salada de alface e tomate</li>
+                                    <li>Farofa temperada</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cardapio-day" id="sabado">
+                        <div class="cardapio-details">
+                            <h3>Sábado</h3>
+                            <div class="cardapio-item">
+                                <ul>
+                                    <li>Bife acebolado</li>
+                                    <li>Frango grelhado</li>
+                                    <li>Omelete </li>
+                                </ul>
+                            </div>
+                            <div class="cardapio-item">
+                                <h4>Acompanhamentos:</h4>
+                                <ul>
+                                    <li>Arroz branco</li>
+                                    <li>Feijão </li>
+                                    <li>Purê de batatas</li>
+                                    <li>Salada de alface e tomate</li>
+                                    <li>Farofa temperada</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Seção Sobre a Marmitaria -->
+    <section id="sobre" class="section-bg">
+        <div class="container">
+            <div class="section-title">
+                <h2>Sobre a Marmitaria</h2>
+                <p>Conheça nossa história e valores</p>
+            </div>
+            
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <h3>Ale Marmitaria - Marmitas com Amor</h3>
+                    <p>historia da marmitaria</p>
+                    <p>mais historia</p>
+                    <h4>Nossos Valores</h4>
+                    <ul>
+                        <li><i class="fas fa-heart"></i> Amor pela culinária brasileira</li>
+                        <li><i class="fas fa-leaf"></i> Compromisso com ingredientes frescos</li>
+                        <li><i class="fas fa-utensils"></i> Sabor e qualidade em cada marmita</li>
+                        <li><i class="fas fa-clock"></i> Pontualidade nas entregas</li>
+                        <li><i class="fas fa-smile"></i> Satisfação garantida</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Perguntas Frequentes -->
+    <section id="faq">
+        <div class="container">
+            <div class="section-title">
+                <h2>Perguntas Frequentes</h2>
+                <p>Tire suas dúvidas sobre nossos serviços</p>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Qual o horário de entrega das marmitas?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Realizamos entregas de segunda a sábado, das 11h às 14h para almoço e das 18h às 21h para jantar. Você pode agendar sua entrega com pelo menos 2 horas de antecedência.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Quais são as formas de pagamento aceitas?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Aceitamos pagamentos em dinheiro, cartões de crédito e débito, PIX e transferência bancária. Para pagamentos online, enviamos o link ou QR code antes da entrega.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- roda pé -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Sabor Caseiro</h3>
+                    <p>Marmitas com Amor</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Rua , 123 - maringa</p>
+                    <p><i class="fas fa-phone"></i> (11) 99999-9999</p>
+                </div>
+                
+                <div class="footer-horario">
+                    <h3>Horário de Funcionamento</h3>
+                    <p>Segunda a Sexta: 10h às 14h</p>
+                    <p>Sábados: 10h às 14h</p>
+                    <p>Domingos: Fechado</p>
+                </div>
+                
+                <div class="footer-social">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
