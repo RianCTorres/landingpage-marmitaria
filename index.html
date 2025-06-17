@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ale Marmitaria</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <!-- cabeçalho/marmitas -->
@@ -55,6 +61,7 @@
                         <div class="marmita-details">
                             <h3>Marmita Pequena</h3>
                             <p class="price">R$ 15,00</p>
+                            <a href="#" class="btn whatsapp-btn" data-product="Marmita Pequena - R$ 15,00">Pedir no WhatsApp</a>
                         </div>
                     </div>
                     
@@ -62,6 +69,7 @@
                         <div class="marmita-details">
                             <h3>Marmita Média</h3>
                             <p class="price">R$ 19,00</p>
+                            <a href="#" class="btn whatsapp-btn" data-product="Marmita Média - R$ 19,90">Pedir no WhatsApp</a>
                         </div>
                     </div>
                     
@@ -69,6 +77,7 @@
                         <div class="marmita-details">
                             <h3>Marmita Grande</h3>
                             <p class="price">R$ 22,00</p>
+                            <a href="#" class="btn whatsapp-btn" data-product="Marmita Grande - R$ 22,00">Pedir no WhatsApp</a>
                         </div>
                     </div>
                 </div>
@@ -93,143 +102,155 @@
                     <button class="cardapio-tab" data-day="sexta">Sexta</button>
                     <button class="cardapio-tab" data-day="sabado">Sábado</button>
                 </div>
-                
                 <div class="cardapio-content">
                     <div class="cardapio-day active" id="segunda">
+                        <div class="cardapio-image">
+                            <img src="images/cardápio segunda.jpeg" alt="Prato de Segunda">
+                        </div>
                         <div class="cardapio-details">
                             <h3>Segunda-feira</h3>
                             <div class="cardapio-item">
+                                <h4>Proteínas:</h4>
                                 <ul>
-                                    <li>Bife acebolado</li>
-                                    <li>Frango grelhado</li>
-                                    <li>Omelete </li>
+                                    <li>Iscas de Carne</li>
+                                    <li>Coxinha de Frango Empanada</li>
+                                    <li>Ovo Frito</li>
                                 </ul>
                             </div>
                             <div class="cardapio-item">
                                 <h4>Acompanhamentos:</h4>
                                 <ul>
                                     <li>Arroz branco</li>
-                                    <li>Feijão </li>
-                                    <li>Purê de batatas</li>
-                                    <li>Salada de alface e tomate</li>
-                                    <li>Farofa temperada</li>
+                                    <li>Feijão Carioca</li>
+                                    <li>Macarrão</li>
+                                    <li>Couve Refogada</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="cardapio-day" id="terca">
+                        <div class="cardapio-image">
+                            <img src="images/cardápio terça.jpg" alt="Prato de Terça">
+                        </div>
                         <div class="cardapio-details">
                             <h3>Terça-feira</h3>
                             <div class="cardapio-item">
+                                <h4>Proteínas:</h4>
                                 <ul>
-                                    <li>Bife acebolado</li>
-                                    <li>Frango grelhado</li>
-                                    <li>Omelete </li>
+                                    <li>Bisteca de Porco</li>
+                                    <li>Frango a Passarinho</li>
+                                    <li>Ovo Frito</li>
+                                    <li>Carne Moída com Legumes</li>
                                 </ul>
                             </div>
                             <div class="cardapio-item">
                                 <h4>Acompanhamentos:</h4>
                                 <ul>
                                     <li>Arroz branco</li>
-                                    <li>Feijão </li>
-                                    <li>Purê de batatas</li>
-                                    <li>Salada de alface e tomate</li>
-                                    <li>Farofa temperada</li>
+                                    <li>Batata palha</li>
+                                    <li>Legumes Refogados</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="cardapio-day" id="quarta">
                         <div class="cardapio-details">
                             <h3>Quarta-feira</h3>
                             <div class="cardapio-item">
+                                <h4>Proteínas:</h4>
                                 <ul>
-                                    <li>Bife acebolado</li>
-                                    <li>Frango grelhado</li>
-                                    <li>Omelete </li>
+                                    <li>Carne de panela</li>
+                                    <li>Frango ao curry</li>
+                                    <li>Tofu grelhado</li>
                                 </ul>
                             </div>
                             <div class="cardapio-item">
                                 <h4>Acompanhamentos:</h4>
                                 <ul>
-                                    <li>Arroz branco</li>
-                                    <li>Feijão </li>
-                                    <li>Purê de batatas</li>
-                                    <li>Salada de alface e tomate</li>
-                                    <li>Farofa temperada</li>
+                                    <li>Arroz integral</li>
+                                    <li>Feijão preto</li>
+                                    <li>Purê de abóbora</li>
+                                    <li>Salada de repolho com cenoura</li>
+                                    <li>Farofa simples</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="cardapio-day" id="quinta">
                         <div class="cardapio-details">
                             <h3>Quinta-feira</h3>
                             <div class="cardapio-item">
+                                <h4>Proteínas:</h4>
                                 <ul>
-                                    <li>Bife acebolado</li>
-                                    <li>Frango grelhado</li>
-                                    <li>Omelete </li>
+                                    <li>Feijoada</li>
+                                    <li>Linguiça toscana</li>
+                                    <li>Ovo mexido</li>
                                 </ul>
                             </div>
                             <div class="cardapio-item">
                                 <h4>Acompanhamentos:</h4>
                                 <ul>
                                     <li>Arroz branco</li>
-                                    <li>Feijão </li>
-                                    <li>Purê de batatas</li>
-                                    <li>Salada de alface e tomate</li>
-                                    <li>Farofa temperada</li>
+                                    <li>Couve refogada</li>
+                                    <li>Farofa de bacon</li>
+                                    <li>Laranja fatiada</li>
+                                    <li>Torresmo</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="cardapio-day" id="sexta">
                         <div class="cardapio-details">
                             <h3>Sexta-feira</h3>
                             <div class="cardapio-item">
+                                <h4>Proteínas:</h4>
                                 <ul>
-                                    <li>Bife acebolado</li>
-                                    <li>Frango grelhado</li>
-                                    <li>Omelete </li>
+                                    <li>Filé de peixe empanado</li>
+                                    <li>Frango xadrez</li>
+                                    <li>Omelete de queijo</li>
                                 </ul>
                             </div>
                             <div class="cardapio-item">
                                 <h4>Acompanhamentos:</h4>
                                 <ul>
-                                    <li>Arroz branco</li>
-                                    <li>Feijão </li>
-                                    <li>Purê de batatas</li>
-                                    <li>Salada de alface e tomate</li>
-                                    <li>Farofa temperada</li>
+                                    <li>Arroz com cenoura</li>
+                                    <li>Feijão carioca</li>
+                                    <li>Batata sauté</li>
+                                    <li>Salada tropical</li>
+                                    <li>Molho tártaro</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="cardapio-day" id="sabado">
                         <div class="cardapio-details">
                             <h3>Sábado</h3>
                             <div class="cardapio-item">
+                                <h4>Proteínas:</h4>
                                 <ul>
-                                    <li>Bife acebolado</li>
-                                    <li>Frango grelhado</li>
-                                    <li>Omelete </li>
+                                    <li>Churrasco misto</li>
+                                    <li>Coxa de frango assada</li>
+                                    <li>Espetinho vegetariano</li>
                                 </ul>
                             </div>
                             <div class="cardapio-item">
                                 <h4>Acompanhamentos:</h4>
                                 <ul>
                                     <li>Arroz branco</li>
-                                    <li>Feijão </li>
-                                    <li>Purê de batatas</li>
-                                    <li>Salada de alface e tomate</li>
-                                    <li>Farofa temperada</li>
+                                    <li>Maionese de batata</li>
+                                    <li>Vinagrete</li>
+                                    <li>Farofa</li>
+                                    <li>Salada verde</li>
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+                </div>
                         </div>
                     </div>
                 </div>
@@ -237,7 +258,7 @@
         </div>
     </section>
 
-        <!-- Seção Sobre a Marmitaria -->
+    <!-- Seção Sobre a Marmitaria -->
     <section id="sobre" class="section-bg">
         <div class="container">
             <div class="section-title">
@@ -248,11 +269,11 @@
             <div class="sobre-content">
                 <div class="sobre-text">
                     <h3>Ale Marmitaria - Marmitas com Amor</h3>
-                    <p>historia da marmitaria</p>
-                    <p>mais historia</p>
+                    <p>Alê Marmitaria é uma empresa fundada por Alessandra, que desde muito jovem demonstrava paixão pela culinária.</p>
+                    <p>Com receitas tradicionais e ingredientes selecionados, a Alê Marmitaria busca oferecer praticidade sem abrir mão do sabor e da qualidade. Cada refeição é pensada para nutrir, confortar e surpreender — como se fosse feita especialmente para você.</p>
                     <h4>Nossos Valores</h4>
                     <ul>
-                        <li><i class="fas fa-heart"></i> Amor pela culinária brasileira</li>
+                        <li><i class="fas fa-heart"></i> Amor pela culinária</li>
                         <li><i class="fas fa-leaf"></i> Compromisso com ingredientes frescos</li>
                         <li><i class="fas fa-utensils"></i> Sabor e qualidade em cada marmita</li>
                         <li><i class="fas fa-clock"></i> Pontualidade nas entregas</li>
@@ -278,39 +299,37 @@
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>Realizamos entregas de segunda a sábado, das 11h às 14h para almoço e das 18h às 21h para jantar. Você pode agendar sua entrega com pelo menos 2 horas de antecedência.</p>
+                        <p>Realizamos entregas de segunda a sábado, das 8h às 14h para almoço. Você pode agendar sua entrega com pelo menos 2 horas de antecedência.</p>
                     </div>
                 </div>
-                
                 <div class="faq-item">
                     <div class="faq-question">
                         <h3>Quais são as formas de pagamento aceitas?</h3>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>Aceitamos pagamentos em dinheiro, cartões de crédito e débito, PIX e transferência bancária. Para pagamentos online, enviamos o link ou QR code antes da entrega.</p>
+                        <p>Aceitamos pagamentos em dinheiro e PIX. Para pagamentos online, enviamos o link ou QR code antes da entrega.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- roda pé -->
+    <!-- rodapé -->
     <footer>
         <div class="container">
             <div class="footer-content">
                 <div class="footer-info">
                     <h3>Sabor Caseiro</h3>
                     <p>Marmitas com Amor</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Rua , 123 - maringa</p>
-                    <p><i class="fas fa-phone"></i> (11) 99999-9999</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Rua Julio Mesquita, 1219 - Jardim América - Maringá</p>
+                    <p><i class="fas fa-phone"></i> (44) 99972-8306</p>
                 </div>
                 
                 <div class="footer-horario">
                     <h3>Horário de Funcionamento</h3>
-                    <p>Segunda a Sexta: 10h às 14h</p>
-                    <p>Sábados: 10h às 14h</p>
-                    <p>Domingos: Fechado</p>
+                    <p>Segunda a Sábado: 8h às 14h</p>
+                    <p>Domingo: Fechado</p>
                 </div>
                 
                 <div class="footer-social">
@@ -320,6 +339,13 @@
                     </div>
                 </div>
             </div>
-            
         </div>
     </footer>
+
+    <!-- Botão WhatsApp Flutuante -->
+    <a href="#" class="whatsapp-float" id="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <script src="script.js"></script>
+</body>
+</html>
