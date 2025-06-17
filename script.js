@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Função para abrir WhatsApp com mensagem
     function openWhatsApp(product = '') {
-        const phoneNumber = '554491753416';
+        const phoneNumber = '554499728306';
         let message = 'Olá, Gostaria de fazer um pedido!';
         
         if (product) {
